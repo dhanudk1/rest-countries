@@ -76,7 +76,7 @@ const Home = () => {
       <div className="row row-gap-3">
         {filteredCountries.map((country) => {
           return (
-            <div className="col-sm-12 col-md-6 col-lg-3">
+            <div className="col-sm-12 col-md-6 col-lg-3" key={country.nativeName}>
               <CountryCard country={country} />
             </div>
           );

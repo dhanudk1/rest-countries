@@ -34,7 +34,7 @@ const CountryDetails = () => {
       </div>
       {details.map((detail) => {
         return (
-          <div className="row my-4">
+          <div className="row my-4" key={detail.nativeName}>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
               <img src={detail.flag} alt="#" height="260" />
             </div>
@@ -88,7 +88,10 @@ const CountryDetails = () => {
                     <strong>Border Countries: </strong>
                     {detail.borders?.map((border) => {
                       return (
-                        <button className="btn btn-outline-dark me-2">
+                        <button
+                          className="btn btn-outline-dark me-2"
+                          key={border}
+                        >
                           {border}
                         </button>
                       );
