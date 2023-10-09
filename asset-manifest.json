@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rest-countries/static/css/main.585a4dc7.css",
+    "main.js": "/rest-countries/static/js/main.9a1d93ec.js",
+    "static/js/787.f6b2eaaf.chunk.js": "/rest-countries/static/js/787.f6b2eaaf.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/rest-countries/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/rest-countries/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/rest-countries/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/rest-countries/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/rest-countries/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/rest-countries/index.html",
+    "main.585a4dc7.css.map": "/rest-countries/static/css/main.585a4dc7.css.map",
+    "main.9a1d93ec.js.map": "/rest-countries/static/js/main.9a1d93ec.js.map",
+    "787.f6b2eaaf.chunk.js.map": "/rest-countries/static/js/787.f6b2eaaf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.585a4dc7.css",
+    "static/js/main.9a1d93ec.js"
+  ]
+}
