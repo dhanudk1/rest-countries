@@ -1,12 +1,11 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import logo from "./logo.svg";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import CountryDetails from "./pages/CountryDetails";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,7 +14,7 @@ function App() {
           element={<CountryDetails />}
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

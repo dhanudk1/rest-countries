@@ -17,13 +17,14 @@ const CountryDetails = () => {
 
   useEffect(() => {
     getCountryDetails();
+    // eslint-disable-next-line
   }, []);
 
   return details.length > 0 ? (
     <div className="container">
       <div className="row my-5">
         <button
-          className="btn btn-light"
+          className="btn btn-outline-dark"
           style={{ width: "100px" }}
           onClick={() => navigate(-1)}
         >
@@ -87,7 +88,9 @@ const CountryDetails = () => {
                     <strong>Border Countries: </strong>
                     {detail.borders?.map((border) => {
                       return (
-                        <button className="btn btn-light me-2">{border}</button>
+                        <button className="btn btn-outline-dark me-2">
+                          {border}
+                        </button>
                       );
                     })}
                   </p>
